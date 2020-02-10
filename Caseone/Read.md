@@ -1,11 +1,11 @@
-Requirements
+# Requirements #
 
 1. Google cloud project
 2. Bucket
 3. Apache Beam
 4. spaCy tokenization
 
-Create a project on Google Cloud Platform
+## Create a project on Google Cloud Platform ##
 To create a new project:
 
 Go to the Manage resources page in the Cloud Console.
@@ -15,7 +15,7 @@ In the New Project window that appears, enter a project name and select a billin
 If you want to add the project to a folder, enter the folder name in the Location box.
 When you're finished entering new project details, click Create.
 
-Create a bucket:
+## Create a bucket: ##
 
 1.Open the Cloud Storage browser in the Google Cloud Console. 
 2.Click Create bucket to open the bucket creation form.
@@ -25,7 +25,7 @@ Select a Default storage class for the bucket. The default storage class will be
 Select an Access control model to determine how you control access to the bucket's objects.
 Optionally, you can add bucket labels, set a retention policy, and choose an encryption method. Click Done.
 
-Prerequisites:
+## Prerequisites: ##
 
 ● Review the tutorial on Linkedin Learning 
 ● https://cloud.google.com/dataflow/docs/how-to
@@ -33,7 +33,7 @@ Prerequisites:
 ● https://www.uts.edu.au/sites/default/files/ADG_Cons2015_Loughran%20McDonald%20JE%202011.pdf 
 ● https://drive.google.com/file/d/15UPaF2xJLSVz8DYuphierz67trCxFLcl/view  
 
-Libraries and the versions used in this case study:
+## Libraries and the versions used in this case study: ##
 anaconda-client==1.7.2
 anaconda-navigator==1.9.7
 anaconda-project==0.8.3
