@@ -60,7 +60,6 @@ python3 submit.py
 
 ## References: ##
 
-● Review the tutorial on Linkedin Learning 
 ● https://cloud.google.com/dataflow/docs/how-to
 ● https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3230156 
 ● https://www.uts.edu.au/sites/default/files/ADG_Cons2015_Loughran%20McDonald%20JE%202011.pdf 
