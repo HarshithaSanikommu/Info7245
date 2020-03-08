@@ -58,13 +58,6 @@ Once Everything is installed successfully the below command inside the repositor
 python3 submit.py
 ```
 
-## References: ##
-
-● https://cloud.google.com/dataflow/docs/how-to
-● https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3230156 
-● https://www.uts.edu.au/sites/default/files/ADG_Cons2015_Loughran%20McDonald%20JE%202011.pdf 
-● https://drive.google.com/file/d/15UPaF2xJLSVz8DYuphierz67trCxFLcl/view  
-
 ## Libraries and the versions used in this case study: ##
  * anaconda-client==1.7.2
  * anaconda-navigator==1.9.7
