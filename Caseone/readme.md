@@ -51,11 +51,11 @@ Test If you have adequate access writes to your Bucket by running the example sh
 #### Step 3
 Spin up a Google VM Instance <a href='https://console.cloud.google.com/compute/instances'> Here </a> with minimum configuration since DataFlow is a managed service, it handles the resources part.
 #### Step 4
-> Configure file <a href="https://github.com/HarshithaSanikommu/Caseone/submit.py">`main.py`</a> from lines 26 to 29 according to your google credentials. Also enter the bucket location in lines 324 to 331 in <a href="https://github.com/HarshithaSanikommu/Caseone/submit.py">`main.py`</a>
+> Configure file <a href="https://github.com/HarshithaSanikommu/Caseone/submit.py">`submit.py`</a> from lines 26 to 29 according to your google credentials. Also enter the bucket location in lines 324 to 331 in <a href="https://github.com/HarshithaSanikommu/Caseone/submit.py">`submit.py`</a>
 #### Step 5
 Once Everything is installed successfully the below command inside the repository folder
 ```
-python3 main.py
+python3 submit.py
 ```
 
 ## References: ##
