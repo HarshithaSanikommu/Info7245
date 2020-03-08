@@ -26,8 +26,8 @@ pip3 install apache-beam nltk google-cloud-storage apache-beam[gcp]
 ```
 
 ### Setup For Running in Google Cloud DataFlow
-##### Step 1
-## Create a project on Google Cloud Platform ##
+#### Step 1
+##### Create a project on Google Cloud Platform #####
 To create a new project:
  - Go to the Manage resources page in the Cloud Console.
  - On the Select organization drop-down list at the top of the page, select the organization in which you want to create a project. If    you are a free trial user, skip this step, as this list does not appear.
@@ -36,7 +36,7 @@ To create a new project:
  - If you want to add the project to a folder, enter the folder name in the Location box.
  - When you're finished entering new project details, click Create.
  
-## Create a bucket: ##
+##### Create a bucket: #####
  - Open the Cloud Storage browser in the Google Cloud Console. 
  - Click Create bucket to open the bucket creation form.
  - Enter your bucket information and click Continue to complete each step:
@@ -46,13 +46,13 @@ To create a new project:
  - Optionally, you can add bucket labels, set a retention policy, and choose an encryption method. Click Done.
 Create 2 folders inside the bucket `temp` and `staging` for creating a temperory and staging location for apache beam to interact with.
 
-##### Step 2
+#### Step 2
 Test If you have adequate access writes to your Bucket by running the example shown <a href='https://googleapis.dev/python/storage/latest/index.html#example-usage'>Here</a>
-##### Step 3
+#### Step 3
 Spin up a Google VM Instance <a href='https://console.cloud.google.com/compute/instances'> Here </a> with minimum configuration since DataFlow is a managed service, it handles the resources part.
-##### Step 4
+#### Step 4
 > Configure file <a href="https://github.com/HarshithaSanikommu/Caseone/main.py">`main.py`</a> from lines 26 to 29 according to your google credentials. Also enter the bucket location in lines 324 to 331 in <a href="https://github.com/HarshithaSanikommu/Caseone/main.py">`main.py`</a>
-##### Step 5
+#### Step 5
 Once Everything is installed successfully the below command inside the repository folder
 ```
 python3 main.py
