@@ -26,7 +26,7 @@ pip3 install apache-beam nltk google-cloud-storage apache-beam[gcp]
 ```
 
 ### Setup For Running in Google Cloud DataFlow
-## Step 1
+##### Step 1
 ## Create a project on Google Cloud Platform ##
 To create a new project:
  - Go to the Manage resources page in the Cloud Console.
